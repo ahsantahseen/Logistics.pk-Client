@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+.jumbotron-h {
+  min-height: 70vh;
+}
+.carousel-indicators li {
+  display: none;
+}
+.aboutus {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.heading {
+  text-align: justify;
+}
+.contactUsDiv {
+  margin-right: 30px;
+}
+footer {
+  padding: 70px 0px;
+  color: #fff;
+}
+
+.adress span,
+.contact span,
+.social span {
+  color: #fff;
+  font-weight: 800;
+  padding: 20px 0px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.adress li,
+.contact li,
+.social li {
+  padding: 5px 0px;
+  list-style: none;
+}
+
+.adress li p,
+.contact li a,
+.social li a {
+  color: #fff;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.order-form {
+  background: #212529;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.order-form .form-control {
+  border-radius: 1rem;
+}
+.order-image {
+  text-align: center;
+}
+.form-control {
+  margin-top: 2%;
+  background-color: #212529;
+}
+.order-image .img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.order-form .form {
+  padding: 14%;
+}
+.order-form .form .row {
+  margin-bottom: -7%;
+}
+.order-form .h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #fff;
+}
+.order-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+}
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .jumbotron-h {
+    min-height: 60vh;
+  }
+
+  .aboutus {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .heading {
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .jumbotron-h {
+    min-height: 65vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .jumbotron-h {
+    min-height: 63vh;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .jumbotron-h {
+    min-height: 45vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .jumbotron-h {
+    min-height: 65vh;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .jumbotron-h {
+    min-height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .jumbotron-h {
+    min-height: 44vh;
+  }
+}
+@media only screen and (min-width: 2400px) {
+  .jumbotron-h {
+    min-height: 34vh;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  .jumbotron-h {
+    min-height: 21vh;
+  }
+}
